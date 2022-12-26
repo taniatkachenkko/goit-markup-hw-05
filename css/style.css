@@ -483,9 +483,14 @@ ul {
     padding: 63px 24px;
     fill: var(--color-third);
     overflow: hidden;
+   
 }
 
 .feature-card-text{
+    font-family: inherit;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
     position: absolute;
     color: var(--color-background);
     background-color: rgba(33, 150, 243, 0.9);;
@@ -495,6 +500,10 @@ ul {
     left: 0;
     transform: translateY(100%);
     transition-duration: 250ms;
+    overflow: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 
